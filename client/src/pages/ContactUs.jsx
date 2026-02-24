@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { FaEnvelope, FaPhone, FaInstagram, FaYoutube, FaVimeoV } from 'react-icons/fa'
 import toast from 'react-hot-toast'

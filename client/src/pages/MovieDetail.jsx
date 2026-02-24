@@ -1,3 +1,4 @@
+import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { FaArrowLeft, FaStar, FaShare } from 'react-icons/fa'

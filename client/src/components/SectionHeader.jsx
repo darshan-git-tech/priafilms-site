@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function SectionHeader({ eyebrow, title, subtitle, center = false }) {
   return (
     <div className={`mb-12 ${center ? 'text-center' : ''}`}>

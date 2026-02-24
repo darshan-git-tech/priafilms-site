@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
@@ -8,7 +9,8 @@ import MovieCard from '../components/MovieCard'
 import { useFeaturedMovies } from '../hooks/useMovies'
 
 export default function Home() {
-  const { data: featured = [], isLoading } = useFeaturedMovies()
+  const { data, isLoading } = useFeaturedMovies()
+  const featured = Array.isArray(data) ? data : []
 
   return (
     <PageTransition>

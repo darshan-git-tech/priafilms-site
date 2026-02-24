@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { FaSearch } from 'react-icons/fa'
 import PageTransition from '../components/PageTransition'

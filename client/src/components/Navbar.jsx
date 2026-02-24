@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiMenu, HiX } from 'react-icons/hi'
